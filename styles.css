@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at center, #ffffff, #f0f3f7, #d9e1ec);
+    color: #2c3e50; /* Deep neutral text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle card shadow */
+  }
+  
+  /* Smooth transitions for all elements */
+  * {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Subtle hover effect on links */
+  a {
+    text-decoration: none;
+    color: #3498db; /* Vibrant blue */
+    font-weight: 500;
+  }
+  
+  a:hover {
+    color: #1abc9c; /* Soft green on hover */
+  }
+  
+  /* Add some padding between sections */
+  section {
+    padding: 50px 20px;
+  }
+  
+  /* Responsive layout for small screens */
+  @media (max-width: 768px) {
+    body {
+      padding: 0 10px;
+    }
+    .container {
+      padding: 10px;
+    }
+  }
+  
